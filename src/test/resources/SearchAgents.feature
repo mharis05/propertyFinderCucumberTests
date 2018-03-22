@@ -11,7 +11,7 @@ Feature: Search Agents
   result count has reduced.
 
     When User navigates to Find Agents page
-    And User filters agents who speak "English", "Arabic" or "Hindi"
+    And User filters agents who speak "English", "Arabic" or "Hxindi"
     Then Retrieve the number of results for language
     And Filter Agents based in "India"
     And Retrieve the number of results for nationality

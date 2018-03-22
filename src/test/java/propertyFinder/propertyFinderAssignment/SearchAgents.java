@@ -1,6 +1,8 @@
 package propertyFinder.propertyFinderAssignment;
 
 import cucumber.api.PendingException;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -128,12 +130,21 @@ public class SearchAgents extends BaseTest{
 
     @And("^Capture a screenshot$")
     public void captureAScreenshot() {
-        Utils.captureScreenshot(driver);
+        Utils.captureScreenshot(driver, false);
     }
 
     @And("^Change page language to Arabic$")
     public void changePageLanguageToArabic() {
         agentDetailsPage.clickArabicLanguageSwitch(driver);
         PropertyFinderWaits.waitForSeconds(driver,10);
+    }
+
+    @After
+    public void tearDown(Scenario scenario) {
+        if (scenario.isFailed()) {
+            boolean isFailed = true;
+            // Take a screenshot
+           Utils.captureScreenshot(driver, isFailed);
+        }
     }
 }

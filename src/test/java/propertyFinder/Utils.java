@@ -53,10 +53,13 @@ public class Utils {
 
     }
 
-    public static void captureScreenshot(WebDriver driver) {
+    public static void captureScreenshot(WebDriver driver, boolean isFailed) {
         File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(screenshotFile, new File("C:\\Test\\screenshot" + random.nextInt() + ".png"));
+            if(isFailed){FileUtils.copyFile(screenshotFile, new File("C:\\Test\\FailedScreenshot" + random.nextInt() + ".png"));}
+            else {
+                FileUtils.copyFile(screenshotFile, new File("C:\\Test\\Screenshot" + random.nextInt() + ".png"));
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
