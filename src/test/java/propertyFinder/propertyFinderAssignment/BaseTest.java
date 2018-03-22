@@ -2,6 +2,13 @@ package propertyFinder.propertyFinderAssignment;
 
 import org.openqa.selenium.WebDriver;
 
+/**
+ * BaseTest.java
+ * Purpose: Basic test features defined here.
+ *
+ * @author Haris Saleem
+ */
+
 public class BaseTest {
 
     protected static WebDriver driver;

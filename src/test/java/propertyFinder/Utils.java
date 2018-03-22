@@ -13,6 +13,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+/**
+ * Utils.java
+ * Purpose: Using this class to implement file writing and screenshot capturing.
+ * Methods are declared static for ease of access.
+ *
+ * @author Haris Saleem
+ */
+
 public class Utils {
 
     private static FileWriter writer;

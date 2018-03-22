@@ -1,5 +1,12 @@
 package propertyFinder.steps;
 
+/**
+ * AgentPageLocators.java
+ * Purpose: Contains locator definitions for Home page.
+ *
+ * @author Haris Saleem
+ */
+
 public interface HomePageLocators {
 
     String purchaseTypeDropDown = ".//form[@id='search-form-property']//select[@name='c']/following-sibling::div[@class='ms-parent']/button";

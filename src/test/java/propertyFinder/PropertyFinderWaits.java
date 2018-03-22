@@ -4,6 +4,14 @@ import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * PropertyFinderWaits.java
+ * Purpose: Contains implementation of an implicit wait used throughout the suite.
+ *
+ * @author Haris Saleem
+ */
+
+
 public class PropertyFinderWaits {
 
     //Declared as static so that we can call the wait from anywhere in the project

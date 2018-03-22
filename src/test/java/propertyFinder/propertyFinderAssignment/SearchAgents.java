@@ -18,6 +18,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * SearchAgents.java
+ * Purpose: Step definitions of Search Agents scenarios are defined here.
+ *
+ * @author Haris Saleem
+ */
+
 public class SearchAgents extends BaseTest{
 
     private HomePage homepage = new HomePage();

@@ -1,5 +1,12 @@
 package propertyFinder.steps;
 
+/**
+ * AgentDetailsPageLocators.java
+ * Purpose: Contains declaration of locators used on the Agent Details page.
+ *
+ * @author Haris Saleem
+ */
+
 public interface AgentDetailsPageLocators {
 
     String agentName = ".//h1";

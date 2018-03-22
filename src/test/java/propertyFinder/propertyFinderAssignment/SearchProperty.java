@@ -15,6 +15,13 @@ import propertyFinder.steps.SearchResultsPage;
 import java.io.IOException;
 import java.util.List;
 
+/**
+ * SearchProperty.java
+ * Purpose: Step definitions of Search Property scenarios are defined here..
+ *
+ * @author Haris Saleem
+ */
+
 public class SearchProperty extends BaseTest {
 
     private HomePage homepage = new HomePage();

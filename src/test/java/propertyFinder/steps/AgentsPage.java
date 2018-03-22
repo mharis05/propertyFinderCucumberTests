@@ -4,6 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+/**
+ * AgentsPage.java
+ * Purpose: Contains implementation of steps pertaining to AgentsPage page.
+ *
+ * @author Haris Saleem
+ */
+
 public class AgentsPage {
 
 

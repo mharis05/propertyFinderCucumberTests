@@ -1,5 +1,12 @@
 package propertyFinder.steps;
 
+/**
+ * SearchResultsPageLocators.java
+ * Purpose: Contains locator definitions for Property Search Results page.
+ *
+ * @author Haris Saleem
+ */
+
 public interface SearchResultsPageLocators {
 
     String resultsSortingDropDown = ".//button[@class='ms-choice']/span[contains(text(),'Featured')]";

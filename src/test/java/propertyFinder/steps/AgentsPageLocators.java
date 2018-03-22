@@ -1,5 +1,12 @@
 package propertyFinder.steps;
 
+/**
+ * AgentsPageLocators.java
+ * Purpose: Contains locator definitions for Agents page.
+ *
+ * @author Haris Saleem
+ */
+
 public interface AgentsPageLocators {
 
     String languagesDropDown = ".//div[@class='searchform_column'][2]";

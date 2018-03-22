@@ -8,6 +8,13 @@ import propertyFinder.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * SearchResultsPage.java
+ * Purpose: Contains implementation of steps pertaining to Search Results page.
+ *
+ * @author Haris Saleem
+ */
+
 public class SearchResultsPage {
 
     private List<WebElement> listOfPrices;

@@ -3,6 +3,13 @@ package propertyFinder.steps;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+/**
+ * AgentSearchResultsPage.java
+ * Purpose: Contains implementation of steps pertaining to AgentSearchResults page.
+ *
+ * @author Haris Saleem
+ */
+
 public class AgentSearchResultsPage {
 
     public void clickNationalityTabDropdown(WebDriver driver) {

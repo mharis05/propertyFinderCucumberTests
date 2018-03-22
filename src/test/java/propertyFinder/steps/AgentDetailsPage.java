@@ -4,6 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import propertyFinder.PropertyFinderWaits;
 
+/**
+ * AgentDetailsPage.java
+ * Purpose: Contains implementation of steps pertaining to AgentDetails page.
+ *
+ * @author Haris Saleem
+ */
+
 public class AgentDetailsPage {
     public String getAgentName(WebDriver driver) {
         return driver.findElement(By.xpath(AgentDetailsPageLocators.agentName)).getText();

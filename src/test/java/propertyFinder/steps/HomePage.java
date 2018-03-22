@@ -4,6 +4,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+/**
+ * HomePage.java
+ * Purpose: Contains implementation of steps pertaining to Homes page.
+ *
+ * @author Haris Saleem
+ */
+
 public class HomePage {
 
     private WebElement dropDownSelection = null;
