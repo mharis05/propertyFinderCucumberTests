@@ -7,7 +7,7 @@ A BDD based sample project which automates some scenarios for PropertyFinder Web
 - Browsers: Chrome, Firefox, Headless ChromeDriver
 - Reports in HTML (ExtentReports)
 
-#### Details of Coverage:
+# Details of Coverage:
 ## Feature:Search Agents: 
 
 Tests cover following flows in two scenarios:
