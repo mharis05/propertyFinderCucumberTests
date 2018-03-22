@@ -1,5 +1,7 @@
 # propertyFinderCucumberTests
-A BDD based sample project which automates some scenarios for PropertyFinder Webapp. Some of the attiributes of the project: 
+A BDD based sample project which automates some scenarios for PropertyFinder Webapp using Selenium WebDriver and Java. Reports are generated using ExtentReports.js.
+
+Some of the attiributes of the project: 
 
 - Cucumber BDD
 - Configurable URLs
@@ -29,24 +31,24 @@ Scenario 1: Search for an Agent based on language preferences,
  
 Scenario 2: Capture Details of the first Agent listed on the Agents Page
 
-1) Open https://propertyfinder.ae
-2) Click on FIND AGENTS tab (present on top panel) 
-3) Select First agent
-4) Capture following info in a text file
-    i) Name
-    ii) Nationality
-    iii) Languages
-    iv) License No
-    v) About Me
-    vi) Phone Number
-    vii) Company Name
-    viii) Experience
-    ix) No of active listings
-    x) LinkedIn URL (if present)
+    1) Open https://propertyfinder.ae
+    2) Click on FIND AGENTS tab (present on top panel) 
+    3) Select First agent
+    4) Capture following info in a text file
+        i) Name
+        ii) Nationality
+        iii) Languages
+        iv) License No
+        v) About Me
+        vi) Phone Number
+        vii) Company Name
+        viii) Experience
+        ix) No of active listings
+        x) LinkedIn URL (if present)
 
-5) Capture Screenshot of the page
-6) Change language to Arabic (top right corner)
-7) Capture screenshot again
+    5) Capture Screenshot of the page
+    6) Change language to Arabic (top right corner)
+    7) Capture screenshot again
  
 
 ## Feature: Search Property:
