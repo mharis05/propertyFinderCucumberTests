@@ -66,5 +66,10 @@ Scenario 2: Capture Details of the first Agent listed on the Agents Page
 - Create a folder named 'Test' as C:/Test to contain screenshot and output files (this path can be changed in Utils.java class) 
 - Run tests by executing TestRunner.java class using your IDE or maven by using the command: 
         mvn test -Dcucumber.options="src/test/resources"
+        
+## Reports:
+  Two kinds of reports are generated:
+  - Cucumber default JSON and HTML (target/htmlreport/index.html) - Not so pretty!
+  - ExtentReport HTML (target/testReport.html) - JS based pretty report
 
 
