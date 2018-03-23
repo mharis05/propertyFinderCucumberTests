@@ -64,6 +64,7 @@ Scenario 2: Capture Details of the first Agent listed on the Agents Page
 ## How to Run:
 - Place the chrome and Firefox driver binaries in C:/drivers/ folder. (this path can be changed in BrowserInvoke.java class) 
 - Create a folder named 'Test' as C:/Test to contain screenshot and output files (this path can be changed in Utils.java class) 
-- Run tests by executing TestRunner.java class using your IDE or maven. 
+- Run tests by executing TestRunner.java class using your IDE or maven by using the command: 
+        mvn test -Dcucumber.options="src/test/resources"
 
 
