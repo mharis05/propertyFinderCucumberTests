@@ -61,3 +61,9 @@ Scenario 2: Capture Details of the first Agent listed on the Agents Page
     3) Sort the villas from maximum price to lowest price
     4) Fetch all the prices of the listing and save it in a csv file with format : listing title - price
 
+## How to Run:
+- Place the chrome and Firefox driver binaries in C:/drivers/ folder. (this path can be changed in BrowserInvoke.java class) 
+- Create a folder named 'Test' as C:/Test to contain screenshot and output files (this path can be changed in Utils.java class) 
+- Run tests by executing TestRunner.java class using your IDE or maven. 
+
+
